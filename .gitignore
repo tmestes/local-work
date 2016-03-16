@@ -1,47 +1,26 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Exclude the .htaccess file
+.htaccess
 
-# Folder config file
-Desktop.ini
+# Exclude any PSD/AI source
+*.psd
+*.ai
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Exclude the build projects
+build/*
+*.[oa]
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# Exclude OS x FOLDER ATTRIBUTES
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Thumbnails
-._*
+# Exclude Text files
+*.txt
+# Except read me
+!README.txt
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Exclude log files
+*.log
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Exclude Fonts
+_fonts/
+
+
